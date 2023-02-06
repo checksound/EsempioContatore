@@ -1,7 +1,7 @@
 package contatore.v1;
 
 import java.util.Locale;
-public class Main {
+public class TestUnsafeCounter {
     public static void main(String[] args) throws InterruptedException {
         long startTime = System.currentTimeMillis();
 

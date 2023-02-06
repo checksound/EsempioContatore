@@ -1,7 +1,7 @@
-package contatore.v3;
+package contatore.v2;
 
 import java.util.Locale;
-public class Main {
+public class TestSafeCounter {
     public static void main(String[] args) throws InterruptedException {
         long startTime = System.currentTimeMillis();
 
@@ -39,7 +39,7 @@ public class Main {
                 "DEFFERENCE: %,d - DIFF: %f %%\n", difference, percent);
 
         System.out.format(Locale.ITALIAN,
-                "FINISHED Counter ATOMIC, elapsed time: %,d ms\n",
+                "FINISHED Counter SAFE, elapsed time: %,d ms\n",
                 timeElapsed);
     }
 }
